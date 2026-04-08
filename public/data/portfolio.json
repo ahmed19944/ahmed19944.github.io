@@ -1,0 +1,476 @@
+{
+  "profile": {
+    "name": "Ahmed Abd El-Hafez",
+    "title": "Senior Unity Developer",
+    "tagline": "Passionate game developer obsessed with crafting unforgettable gaming moments",
+    "location": "Cairo, Egypt",
+    "email": "ahmedmabdelhafez@hotmail.com",
+    "phone": "+20 1113197733",
+    "resumeUrl": "./docs/resume.pdf",
+    "social": {
+      "github": "https://github.com/ahmed19944",
+      "linkedin": "https://www.linkedin.com/in/a-hafez/",
+      "portfolio": "https://ahmed19944.github.io/"
+    }
+  },
+  "about": {
+    "description": "Senior Unity Developer & Co-Team Lead with 6+ years of professional experience architecting and shipping games across PC, Mobile, VR, and WebGL platforms. I combine deep technical expertise in C#, performance optimization, and advanced systems (DOTS, ECS) with proven leadership in managing cross-functional teams. At PraxiLabs, I've led virtual experiment development while mentoring engineers and driving architectural decisions. At RASKULLS, I wore multiple hats—programmer, designer, and producer—shipping games from concept to release. I'm passionate about solving complex technical challenges, optimizing performance under constraints, and building collaborative teams that ship high-quality experiences.",
+    "cardDescription": "I'm obsessed with creating unforgettable gaming experiences across all platforms—from immersive VR worlds to engaging mobile games and compelling PC titles. I take pride in writing performant, maintainable code and mentoring engineers to grow their skills. Whether I'm optimizing complex systems, solving challenging technical problems, or debugging under deadline pressure, I'm driven by pure passion for games and the joy they bring to players.",
+    "stats": [
+      { "value": "7+", "label": "Years Experience" },
+      { "value": "2", "label": "Project Shipped" },
+      { "value": "3", "label": "Companies" }
+    ],
+    "skills": {
+      "gameEngines": ["Unity", "Unreal Engine"],
+      "languages": ["C#", "C++"],
+      "technologies": ["Virtual Reality", "Multiplayer", "WebGL", "DOTS", "GIT"],
+      "platforms": ["PC", "Mobile", "VR", "WebGL"]
+    }
+  },
+  "contact": {
+    "description": "Available for full time remote jobs, freelance projects and interested in PC/Console/Mobile/VR/AR projects"
+  },
+  "opportunities": {
+    "description": "I'm currently available and always open to new challenges and collaborations in game development. Whether you have a project in mind or just want to connect, feel free to reach out!",
+    "items": [
+      "Available for full time remote jobs, freelance projects",
+      "Open to networking",
+      "Interested in PC/Console/Mobile/VR/AR projects"
+    ]
+  },
+  "experience": [
+    {
+      "id": 3,
+      "company": "Highstreet",
+      "position": "Senior Unity Developer",
+      "startDate": "April 2025",
+      "endDate": "March 2026",
+      "current": false,
+      "logo": "./img/Highstreet Icon_Color.png",
+      "responsibilities": [
+        "Architected and implemented VFX, SFX, and monster ability systems using Unity DOTS, delivering polished gameplay features including Announcer VO, End of Round UI, and complex monster abilities",
+        "Integrated FMOD audio pipeline with DOTS architecture, building a complete audio system from scratch and maintaining it as the project scales",
+        "Developed modular monster AI architecture with ECS-based behavior trees, enabling faster transitions and easier scaling of new enemy behaviors",
+        "Conducted comprehensive performance profiling on VFX systems and developed monitoring tools to prevent performance issues in production",
+        "Collaborated with design and art teams to align technical implementations with project vision, ensuring high-quality integration across disciplines",
+        "Maintained exceptional code quality through thorough testing, systematic bug resolution, and ownership of critical systems like monster AI and audio"
+      ],
+      "tags": ["Unity", "C#", "VR", "DOTS", "Multiplayer"]
+    },
+    {
+      "id": 1,
+      "company": "PraxiLabs",
+      "position": "Senior Unity Developer & Co-Team Lead",
+      "startDate": "May 2021",
+      "endDate": "April 2025",
+      "current": false,
+      "logo": "./img/PraxiLabs-logo.png",
+      "responsibilities": [
+        "Leadership & Team Collaboration: Act as co-team lead, overseeing code reviews, experiment reviews, and sprint task assignments",
+        "Project Management: Participate in management meetings to design new features and experiments, conduct performance reviews",
+        "Cross-Functional Collaboration: Work closely with QA, Learning Experience, and Art teams for seamless integration",
+        "Technical Contributions: Implement virtual experiments, develop new features, and perform maintenance and bug fixing"
+      ],
+      "tags": ["C#", "Unity", "Leadership"]
+    },
+    {
+      "id": 2,
+      "company": "RASKULLS GAME STUDIO",
+      "position": "Game Developer / Co-Founder",
+      "startDate": "July 2018",
+      "endDate": "December 2020",
+      "current": false,
+      "logo": "./img/Raskulls-logo.png",
+      "responsibilities": [
+        "Game Development: Developed mobile, PC, and VR games as programmer, game designer, and producer",
+        "Project Leadership: Managed end-to-end development process from concept to release",
+        "Team Collaboration: Worked closely with artists, designers, and developers to create engaging experiences"
+      ],
+      "tags": ["C#", "Unity", "Unreal Blueprints"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 7,
+      "title": "Calamity",
+      "description": "Highstreet: Calamity is a fast-paced, class-based VR roguelike brawler set in Solera, a chaotic world where talking ducks run businesses, pelicans have strong opinions, and monster portals are 'just an average Tuesday.' Players choose from unique classes with distinct abilities to battle waves of unpredictable enemies and bosses. Progression includes gear upgrades and branching skill paths. The game supports solo or co-op multiplayer with dynamic server allocation using GameLift. Social features include a lobby to connect with friends and enjoy the mayhem together.",
+      "keyFeatures": [
+        "Class-based combat system with unique abilities and playstyles",
+        "Procedurally generated arenas with dynamic hazards",
+        "Challenging monsters and bosses with distinct behaviors",
+        "Solo and co-op multiplayer modes with matchmaking",
+        "Progression system with gear upgrades and skill trees",
+        "Social hub for players to connect and show off achievements"
+      ],
+      "contributions": [
+        {
+          "title": "Systems Architecture",
+          "description": "Architected and implemented VFX, SFX, and monster ability systems using Unity DOTS, delivering polished gameplay features including Announcer VO, End of Round UI, and complex monster abilities."
+        },
+        {
+          "title": "FMOD Audio Pipeline Integration",
+          "description": "Integrated FMOD audio pipeline with DOTS architecture, building a complete audio system from scratch and maintaining it as the project scales."
+        },
+        {
+          "title": "Modular Monster AI Architecture",
+          "description": "Developed modular monster AI architecture with ECS-based behavior trees, enabling faster transitions and easier scaling of new enemy behaviors."
+        },
+        {
+          "title": "Performance Profiling and Monitoring",
+          "description": "Conducted comprehensive performance profiling on VFX systems and developed monitoring tools to prevent performance issues in production."
+        },
+        {
+          "title": "Cross-Disciplinary Collaboration",
+          "description": "Collaborated with design and art teams to align technical implementations with project vision, ensuring high-quality integration across disciplines."
+        },
+        {
+          "title": "Code Quality and Maintenance",
+          "description": "Maintained exceptional code quality through thorough testing, systematic bug resolution, and ownership of critical systems like monster AI and audio."
+        }
+      ],
+      "tags": ["VR", "Meta Quest", "Unity"],
+      "platform": ["VR", "Meta Quest", "Unity"],
+      "image": "./img/Calamity-cover.png",
+      "videos": [
+        "./videos/Highstreet- Calamity-Video.mp4",
+        "https://www.youtube.com/embed/5Eyulq_JXzo"
+      ],
+      "images": [
+        "./img/Calamity-screenshot1.png",
+        "./img/Calamity-screenshot2.png",
+        "./img/Calamity-screenshot3.png",
+        "./img/Calamity-screenshot4.png",
+        "./img/Calamity-screenshot5.png"
+      ],
+      "links": {
+        "metaStore": "https://www.meta.com/en-gb/experiences/highstreet-calamity/9352017631510878/",
+        "caseStudy": "https://unity.com/resources/highstreet-market-scaled-vr-mmo-with-ecs-for-unitys"
+      },
+      "actions": [
+        {
+          "label": "Meta Store",
+          "url": "https://www.meta.com/en-gb/experiences/highstreet-calamity/9352017631510878/",
+          "variant": "primary"
+        },
+        {
+          "label": "Case Study",
+          "url": "https://unity.com/resources/highstreet-market-scaled-vr-mmo-with-ecs-for-unity",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Sky Striders",
+      "description": "Sky Striders is a competitive multiplayer action game built around the thrill of movement mastery, focusing on fluid base movement and grappling hook mechanics in fast-paced online matches. Players chain together grounded momentum, aerial mobility, and precise hook usage to traverse dynamic arenas with speed and control.Set in a stylized combat space where positioning and mobility define success, the experience challenges players to outmaneuver opponents, master traversal routes, and leverage verticality to gain the upper hand. At its core, the gameplay loop rewards skillful movement, quick decision-making, and mechanical precision, supported by responsive controls and a networked multiplayer system that delivers smooth, high-speed encounters and a strong sense of freedom.",
+      "keyFeatures": [
+        "Advanced ground & aerial movement",
+        "Online multiplayer game modes"
+      ],
+      "contributions": [
+        {
+          "title": "Gameplay Systems & Mechanics",
+          "description": [
+            "Advanced Movement Mechanics: Developed and refined core systems including Free Fall Rolling (FFR), Wall Running (with cooldown and speed logic), Easy Auto Landing, and Slide Jumping.",
+            "Challenge Systems: Designed and implemented multiple gameplay challenges such as Fall From Grace, Keep Rolling, Ascendance, Excess, and Slide Challenges."
+          ]
+        },
+        {
+          "title": "Tutorial & User Experience (UX)",
+          "description": [
+            "Comprehensive Tutorial Framework: Built an interactive tutorial system alongside other devs featuring dynamic tooltips, mechanic descriptions, and integrated explanatory GIFs/videos to onboard players.",
+            "UI/UX Implementation: Developed the Main Menu, Pause System (with 'True Pause' logic), and End-Game UI. Refactored the Tooltip and Description UI for better performance and scalability.",
+            "Player Feedback: Integrated visual and auditory feedback, including camera shakes, reticle indicators for mechanics (FFR), and hit VFX."
+          ]
+        },
+        {
+          "title": "Technical Development & Optimization",
+          "description": [
+            "Analytics Integration: Implemented and tested an analytics framework to track player behavior and game events.",
+            "Bug Fixing & Stability: Resolved critical gameplay bugs related to physics collisions, respawn loops, and state management (e.g., preventing specific moves during sliding)."
+          ]
+        },
+        {
+          "title": "Polish",
+          "description": [
+            "Visual Polish: Adjusted skybox colors, materials, and particle systems to ensure a consistent aesthetic across levels.",
+            "Polish Gameplay: polished movement mechanics, parameters, and level design to enhance player experience and ensure smooth gameplay flow."
+          ]
+        }
+      ],
+      "tags": ["PC", "Multiplayer", "Unity"],
+      "platform": ["PC","Unity"],
+      "image": "./img/SkyStrider-cover.png",
+      "videos": [
+        "https://www.youtube.com/embed/Kqmn4qk3hSE",
+        "https://www.youtube.com/embed/0Nb84N4M3ps"
+      ],
+      "images": [
+        "./img/SkyStrider-screenshot1.png",
+        "./img/SkyStrider-screenshot2.png",
+        "./img/SkyStrider-screenshot3.png",
+        "./img/SkyStrider-screenshot4.png",
+        "./img/SkyStrider-screenshot5.png"
+      ],
+      "links": {
+        "download": "https://raskulls.itch.io/sky-striders"
+      },
+      "actions": [
+        {
+          "label": "Download",
+          "url": "https://raskulls.itch.io/sky-striders",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "PraxiLabs Virtual Labs",
+      "description": "PraxiLabs is a leading provider of virtual labs and simulations for science education, offering interactive 3D environments that allow students to conduct experiments safely and effectively. Our platform covers a wide range of subjects including physics, chemistry, and biology, enabling immersive learning experiences that bridge the gap between theory and practice.",
+      "keyFeatures": [
+        "Interactive 3D simulations for hands-on learning",
+        "Real-time experiment conduction with immediate feedback",
+        "Safe and accessible environment for all students",
+        "Comprehensive coverage of physics, chemistry, and biology topics",
+        "User-friendly interface with guided tutorials"
+      ],
+      "contributions": [
+        {
+          "title": "Leadership & Team Collaboration",
+          "description": "Act as co-team lead, overseeing code reviews, experiment reviews, and sprint task assignments."
+        },
+        {
+          "title": "Project Management",
+          "description": "Participate in management meetings to design new features and experiments, conduct performance reviews."
+        },
+        {
+          "title": "Cross-Functional Collaboration",
+          "description": "Work closely with QA, Learning Experience, and Art teams for seamless integration."
+        },
+        {
+          "title": "Technical Contributions",
+          "description": "Implement virtual experiments, develop new features, and perform maintenance and bug fixing."
+        }
+      ],
+      "tags": ["WebGL", "Mobile", "Unity"],
+      "platform": ["WebGL", "Mobile", "Unity"],
+      "image": "./img/PraxiLabs-logo2.png",
+      "videos": [
+        "https://www.youtube.com/embed/A-IXz_ySPoU"
+      ],
+      "images": [],
+      "links": {
+        "simulations": "https://praxilabs.com/en/3d-science-simulations"
+      },
+      "actions": [
+        {
+          "label": "Simulations",
+          "url": "https://praxilabs.com/en/3d-science-simulations",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "That Just Happened",
+      "description": "A serious VR game about blue-collar workplace safety. Players help co-workers by giving them safety equipment to save lives from deadly accidents.",
+      "keyFeatures": [
+        "Immersive VR safety training",
+        "Adaptive coworker AI behavior",
+        "Real-world accident recreation",
+        "Educational training framework"
+      ],
+      "contributions": [
+        {
+          "title": "VR Interaction System",
+          "description": "Developed VR interaction system for picking and handing over safety equipment"
+        },
+        {
+          "title": "Accident Scenarios",
+          "description": "Designed and implemented various workplace accident scenarios"
+        },
+        {
+          "title": "AI Behavior System",
+          "description": "Created AI behavior for coworkers with different safety awareness levels"
+        }
+      ],
+      "tags": ["PC", "VR", "Unreal"],
+      "platform": ["PC", "VR", "Unreal"],
+      "image": "./img/ThatJustHappend-cover.png",
+      "videos": [
+        "https://www.youtube.com/embed/w0o9qF5tkCM"
+      ],
+      "images": [],
+      "links": {}
+    },
+    {
+      "id": 3,
+      "title": "Ice Rush",
+      "description": "Multiplayer VR Racing Game developed during ITI diploma program.",
+      "keyFeatures": [
+        "Competitive Multiplayer Racing",
+        "Dynamic Power-Up System",
+        "Dynamic Obstacle & Drone Patterns",
+        "Automated Level Generation"
+      ],
+      "contributions": [
+        {
+          "title": "Power-Up System Development",
+          "description": "Designed and implemented multiple gameplay power-ups, including Shield, Boost, and Teleport mechanics. This included integrating 3D models, visual indicators, and specialized particle effects (e.g., rocket trails)."
+        },
+        {
+          "title": "Visual Effects (VFX) Implementation",
+          "description": "Enhanced game atmosphere and feedback by creating and optimizing particle systems, such as speed lines, snow effects, and rocket thrusters, while ensuring technical stability across different game regions."
+        },
+        {
+          "title": "Gameplay & Environment Polish",
+          "description": "Refined player interaction mechanics, including handling environment collisions in a networked environment and implementing billboard-style player name tags for clear identification during multiplayer sessions."
+        },
+        {
+          "title": "Optimization & Bug Fixing",
+          "description": "Resolved critical issues related to UI data persistence and particle system performance, ensuring visual assets stayed contained within their designated game regions."
+        }
+      ],
+      "tags": ["PC", "VR", "Multiplayer", "Unity"],
+      "platform": ["PC", "VR", "Unity"],
+      "image": "./img/IceRush-cover.png",
+      "videos": [
+        "https://www.youtube.com/embed/N17FbO5BH8k"
+      ],
+      "images": [],
+      "links": {}
+    },
+    {
+      "id": 4,
+      "title": "Super Food Wars",
+      "description": "2D fighting game where obese dragons fight healthy vegetables.",
+      "keyFeatures": [
+        "Asymmetric Local Multiplayer",
+        "Character-Specific Movement",
+        "Fast-paced 2D combat",
+        "Ranged & Melee Combat",
+        "Health & Energy System"
+      ],
+      "contributions": [
+        {
+          "title": "Gameplay Systems & Mechanics",
+          "description": [
+            "Projectile Combat System: Designed and implemented a projectile firing system (ShootProjectile), handling dynamic instantiation and velocity calculations based on character orientation.",
+            "Advanced Hit Detection: Developed bullet collision logic that integrates with player stats, featuring conditional damage reduction based on character 'blocking' states and energy levels.",
+            "Physics-Based Interactions: Integrated 2D raycasting and physics materials to refine hit detection and environmental interactions."
+          ]
+        },
+        {
+          "title": "Character & Camera Control",
+          "description": [
+            "Character Controllers: Developed core logic for specialized game entities (Bsela and Dragon), managing movement and state-driven behaviors.",
+            "Dynamic Camera Systems: Implemented a camera zoom and update system to enhance visual feedback and gameplay perspective."
+          ]
+        },
+        {
+          "title": "Technical Integration & Level Design",
+          "description": [
+            "Prefab & Asset Management: Orchestrated the setup of game entities using Unity’s Prefab system, ensuring modularity and reusability for gameplay objects.",
+            "Scene Architecture: Configured game scenes and physics settings (Physics2D, Input Manager) to establish a stable foundation for the game's core loop."
+          ]
+        }
+      ],
+      "tags": ["PC", "Unity"],
+      "platform": ["PC", "Unity"],
+      "image": "./img/SuperFoodWars-cover.png",
+      "videos": [
+        "https://www.youtube.com/embed/cre8c3hFW80"
+      ],
+      "images": [],
+      "links": {}
+    },
+    {
+      "id": 5,
+      "title": "Killing Beat",
+      "description": "A rhythm game where the player tries to avoid incoming obstacles while vibing to sick beats.",
+      "keyFeatures": [
+        "Rhythm-synced gameplay featuring obstacles and environmental shifts that move to the beat.",
+        "Dynamic obstacle patterns that evolve and change throughout the levels.",
+        "Unlockable character skins and visual customization via an in-game currency system.",
+        "Multiple movement styles and control schemes optimized for varied playstyles.",
+        "Progressive difficulty tiers ranging from Normal to Nightmare modes."
+      ],
+      "contributions": [
+        {
+          "title": "Core Gameplay Systems",
+          "description": "Reimagined and implemented flexible player movement mechanics, including specialized controls for mobile."
+        },
+        {
+          "title": "Technical Integration & Level Design",
+          "description": "Hand crafted levels with unique obstacle patterns and integrated them with the music's rhythm, ensuring a cohesive and engaging player experience."
+        },
+        {
+          "title": "Obstacle & Object Pooling",
+          "description": "Engineered a robust obstacle pooling system to optimize performance and handled the implementation of complex obstacle behaviors."
+        },
+        {
+          "title": "UI/UX Development",
+          "description": "Designed and integrated the game's UI, including main menus, pause menus, and dynamic in-game indicators for damage, jump cooldowns, and incoming obstacle directions."
+        },
+        {
+          "title": "Visual Effects & Polish",
+          "description": "Developed a suite of visual components such as custom color lerping, particle systems for player feedback, and various screen fade effects (circle, flicker, etc.) to enhance game feel."
+        },
+        {
+          "title": "Systems Architecture",
+          "description": "Implemented a shop system, player settings persistence (sensitivity/dead zones), and level progression logic, including checkpoints and transitions."
+        },
+        {
+          "title": "Optimization & Quality of Life",
+          "description": "Performed extensive project clean-ups and refactored components to be more modular and independent, significantly improving code maintainability."
+        }
+      ],
+      "tags": ["Mobile", "Unity"],
+      "platform": ["Mobile", "Unity"],
+      "image": "./img/KillingBeat-cover.png",
+      "videos": [
+        "https://www.youtube.com/embed/IrbEw_K3Jy0"
+      ],
+      "images": [],
+      "links": {}
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "institution": "INFORMATION TECHNOLOGY INSTITUTE (ITI)",
+      "degree": "9-Month Diploma",
+      "field": "Game Development",
+      "startYear": "2017",
+      "endYear": "2018",
+      "details": [
+        "Track: Game Development",
+        "Project Name: Ice Rush"
+      ]
+    },
+    {
+      "id": 2,
+      "institution": "Ain Shams University",
+      "degree": "Bachelor's Degree",
+      "field": "Computer Science",
+      "startYear": "2013",
+      "endYear": "2017",
+      "details": [
+        "Grade: Very Good",
+        "Project Name: Scientific Journal Management System"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "GIZ Training",
+      "description": "Virtual Reality"
+    },
+    {
+      "name": "GIZ Hackathon",
+      "description": "Participated in and won a Virtual Reality Hackathon"
+    }
+  ],
+  "filterCategories": ["All", "PC", "Mobile", "VR", "Unity", "Unreal"]
+}
