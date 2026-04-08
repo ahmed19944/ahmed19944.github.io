@@ -52,7 +52,7 @@ export function Projects({ projects, categories }: ProjectsProps) {
       return actions.map((action) => (
         <a key={action.label} href={action.url} target="_blank" rel="noopener noreferrer">
           <Button
-            variant={action.variant ?? 'secondary'}
+            variant={action.variant === 'primary' ? 'default' : action.variant ?? 'secondary'}
             className={`${action.variant === 'primary' ? 'bg-orange-500 text-white hover:bg-orange-600' : ''} px-6`}
           >
             <ExternalLink className="w-4 h-4 mr-2" />
