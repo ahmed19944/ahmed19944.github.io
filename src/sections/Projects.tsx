@@ -285,6 +285,7 @@ export function Projects({ projects, categories }: ProjectsProps) {
                                   src={video}
                                   title={`${selectedProject.title} - Video ${index + 1}`}
                                   className="w-full h-full"
+                                  loading="lazy"
                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                   allowFullScreen
                                 />
