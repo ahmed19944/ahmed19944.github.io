@@ -140,6 +140,7 @@ export function Projects({ projects, categories }: ProjectsProps) {
                   src={project.image} 
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
                   onError={(e) => {
                     (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="225" fill="hsl(var(--muted))"%3E%3Ctext x="50%25" y="50%25" dominant-baseline="middle" text-anchor="middle" fill="hsl(var(--muted-foreground))" font-family="sans-serif" font-size="16"%3E' + project.title + '%3C/text%3E%3C/svg%3E';
                   }}
@@ -222,6 +223,7 @@ export function Projects({ projects, categories }: ProjectsProps) {
                           src={selectedProject.image}
                           alt={selectedProject.title}
                           className="w-full aspect-[4/3] object-cover"
+                          loading="lazy"
                         />
                         <div className="p-6 space-y-6">
                           <div>
@@ -295,6 +297,7 @@ export function Projects({ projects, categories }: ProjectsProps) {
                                   src={selectedProject.images[currentImageIndex]}
                                   alt={`${selectedProject.title} screenshot ${currentImageIndex + 1}`}
                                   className="absolute inset-0 w-full h-full object-cover"
+                                  loading="lazy"
                                   onError={(e) => {
                                     (e.target as HTMLImageElement).style.display = 'none';
                                   }}
