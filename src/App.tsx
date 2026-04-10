@@ -40,7 +40,7 @@ function AppContent() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'experience', 'projects', 'education', 'contact'];
+      const sections = ['home', 'about', 'projects', 'experience', 'education', 'contact'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -103,18 +103,18 @@ function AppContent() {
                   About
                 </TabsTrigger>
                 <TabsTrigger 
-                  value="experience" 
-                  onClick={() => scrollToSection('experience')}
-                  className="text-muted-foreground hover:text-foreground data-[state=active]:bg-orange-500 data-[state=active]:text-white"
-                >
-                  Experience
-                </TabsTrigger>
-                <TabsTrigger 
                   value="projects" 
                   onClick={() => scrollToSection('projects')}
                   className="text-muted-foreground hover:text-foreground data-[state=active]:bg-orange-500 data-[state=active]:text-white"
                 >
                   Projects
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="experience" 
+                  onClick={() => scrollToSection('experience')}
+                  className="text-muted-foreground hover:text-foreground data-[state=active]:bg-orange-500 data-[state=active]:text-white"
+                >
+                  Experience
                 </TabsTrigger>
                 <TabsTrigger 
                   value="education" 
@@ -157,8 +157,8 @@ function AppContent() {
                 >
                   <option value="home">Home</option>
                   <option value="about">About</option>
-                  <option value="experience">Experience</option>
                   <option value="projects">Projects</option>
+                  <option value="experience">Experience</option>
                   <option value="education">Education</option>
                   <option value="contact">Contact</option>
                 </select>
@@ -176,11 +176,11 @@ function AppContent() {
         <section id="about">
           <About about={data.about} />
         </section>
-        <section id="experience">
-          <Experience experience={data.experience} />
-        </section>
         <section id="projects">
           <Projects projects={data.projects} categories={data.filterCategories} />
+        </section>
+        <section id="experience">
+          <Experience experience={data.experience} />
         </section>
         <section id="education">
           <Education education={data.education} certificates={data.certificates} />

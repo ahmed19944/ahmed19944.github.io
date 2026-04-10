@@ -2,7 +2,7 @@ import { useState } from 'react';
 import type { Project } from '../types/portfolio';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Play, ChevronLeft, ChevronRight, Image as ImageIcon } from 'lucide-react';
+import { ExternalLink, Play, ChevronLeft, ChevronRight, Image as ImageIcon, X } from 'lucide-react';
 
 interface ProjectsProps {
   projects: Project[];
@@ -203,6 +203,14 @@ export function Projects({ projects, categories }: ProjectsProps) {
                     <DialogTitle className="text-3xl font-bold text-foreground pr-8">
                       {selectedProject.title}
                     </DialogTitle>
+                    <button
+                      type="button"
+                      onClick={handleClose}
+                      className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-background/90 text-foreground shadow-sm transition hover:bg-secondary/90 hover:text-white"
+                      aria-label="Close project details"
+                    >
+                      <X className="h-4 w-4" />
+                    </button>
                   </div>
                 </DialogHeader>
 
@@ -285,7 +293,6 @@ export function Projects({ projects, categories }: ProjectsProps) {
                                   src={video}
                                   title={`${selectedProject.title} - Video ${index + 1}`}
                                   className="w-full h-full"
-                                  loading="lazy"
                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                   allowFullScreen
                                 />
