@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy &mdash; Spot the Difference</title>
+<style>
+  :root {
+    --bg: hsl(0 0% 100%);
+    --fg: hsl(240 10% 3.9%);
+    --muted: hsl(240 3.8% 46.1%);
+    --border: hsl(240 5.9% 90%);
+    --card: hsl(240 4.8% 95.9%);
+    --link: hsl(224 76% 40%);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: hsl(240 10% 3.9%);
+      --fg: hsl(0 0% 98%);
+      --muted: hsl(240 5% 64.9%);
+      --border: hsl(240 3.7% 15.9%);
+      --card: hsl(240 3.7% 15.9%);
+      --link: hsl(217 91% 70%);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .35rem; letter-spacing: -.02em; }
+  h2 {
+    font-size: 1.15rem; margin: 2.4rem 0 .6rem; letter-spacing: -.01em;
+    padding-top: 1.4rem; border-top: 1px solid var(--border);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  .lede, .meta { color: var(--muted); }
+  .meta { font-size: .875rem; margin: 0 0 2rem; }
+  a { color: var(--link); }
+  ul { padding-left: 1.15rem; }
+  li { margin: .35rem 0; }
+  code {
+    background: var(--card); border: 1px solid var(--border); border-radius: .35rem;
+    padding: .1rem .35rem; font-size: .875em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  .note {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: .625rem; padding: .9rem 1.1rem; margin: 1.25rem 0;
+  }
+  .note p { margin: 0; }
+  footer {
+    margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--border);
+    color: var(--muted); font-size: .875rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">
+    <strong>Spot the Difference</strong> &middot; Android package <code>com.std.spotthedifference</code><br />
+    Effective 24 August 2026 &middot; Developer: Ahmed Abd El-Hafez (STD Games)
+  </p>
+
+  <p class="lede">
+    This policy explains what <em>Spot the Difference</em> does with data. The short version: the game
+    itself keeps nothing about you, and the only information leaving your device is what Google's
+    advertising and billing services collect in order to show ads and process a purchase. There are no
+    accounts, no sign-in, and no server of ours that stores anything.
+  </p>
+
+  <h2>Information the game collects</h2>
+  <p>
+    None. Your progress &mdash; which levels are finished and which differences you have found &mdash; is
+    written to a save file in the app's private storage on your own device. It is never uploaded, and
+    Android deletes it when you uninstall the app.
+  </p>
+
+  <h2>Advertising (Google AdMob)</h2>
+  <p>
+    The free version of the game shows interstitial ads between levels and an optional rewarded ad in
+    exchange for a hint. These are served by the Google Mobile Ads SDK, which collects and processes
+    data independently of us, including:
+  </p>
+  <ul>
+    <li>your device's <strong>advertising ID</strong> (a resettable identifier provided by Android);</li>
+    <li>device and app information &mdash; model, operating system version, language, app version;</li>
+    <li>approximate location derived from your IP address, at roughly city level;</li>
+    <li>ad interactions &mdash; which ads were shown, viewed, or clicked.</li>
+  </ul>
+  <p>
+    Google uses this to select and measure ads, to limit how often the same ad is repeated, and to
+    detect fraud. We receive only aggregate reporting from Google &mdash; impression and revenue totals,
+    never information about an individual person or device. How Google handles the data is described in
+    the <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Google Privacy
+    Policy</a> and in <a href="https://policies.google.com/technologies/partner-sites" rel="noopener"
+    target="_blank">How Google uses information from sites or apps that use our services</a>.
+  </p>
+  <p>
+    Ad personalisation is controlled from your device rather than from inside the game: on Android,
+    under <strong>Settings &rarr; Google &rarr; Ads</strong>, you can reset or delete your advertising ID
+    and opt out of personalised advertising. You can also review your settings at
+    <a href="https://adssettings.google.com" rel="noopener" target="_blank">adssettings.google.com</a>.
+  </p>
+
+  <h2>Purchases</h2>
+  <p>
+    The game offers one optional in-app purchase, <em>Remove Ads</em>. Payment is handled entirely by
+    Google Play Billing. We never see or receive your payment details &mdash; no card number, no billing
+    address, no name. The app asks Google Play only whether this Google account owns the purchase, so it
+    knows whether to stop showing ads. That is why the purchase restores itself automatically after a
+    reinstall.
+  </p>
+
+  <h2>Other games we make</h2>
+  <p>
+    The main menu can show a small card pointing at another game. To do that the app downloads one
+    static file over HTTPS from <code>ahmed19944.github.io</code>. Nothing about you is sent with that
+    request and no identifier is attached to it; as with any request to any website, the hosting
+    provider (GitHub) may record the originating IP address in its own server logs. The file is a plain
+    list of games and store links, identical for everyone.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    The game is not directed at children under 13 and we do not knowingly collect information from them.
+    Ad content is capped at a Teen maturity rating, and the app is not configured for child-directed
+    treatment. If you believe a child has provided information through the app, contact us and we will
+    look into it.
+  </p>
+
+  <h2>Sharing</h2>
+  <p>
+    We do not sell your data and we do not share it with anyone beyond the Google services described
+    above &mdash; AdMob for advertising and Google Play for billing. There are no analytics SDKs, no
+    social network SDKs, and no third-party trackers in the app.
+  </p>
+
+  <h2>Retention and deletion</h2>
+  <p>
+    We hold no personal data, so there is nothing on our side to retain or delete. To remove everything
+    the app has stored, uninstall it &mdash; that deletes the local save. To reset the identifier used
+    for advertising, use the Android setting above. Data held by Google is subject to Google's own
+    retention policies and can be managed through your Google account.
+  </p>
+
+  <h2>Other platforms</h2>
+  <p>
+    Desktop versions of <em>Spot the Difference</em> show no ads and contain no billing; apart from the
+    cross-promotion file described above, they make no network requests at all.
+  </p>
+
+  <h2>Changes</h2>
+  <p>
+    If this policy changes, the revised version is posted at this address with a new effective date.
+    Material changes will also be noted in the app's store listing release notes.
+  </p>
+
+  <h2>Contact</h2>
+  <div class="note">
+    <p>
+      Questions about this policy, or about privacy in the game:
+      <a href="mailto:stdgamesstudio@gmail.com">stdgamesstudio@gmail.com</a>
+    </p>
+  </div>
+
+  <footer>
+    <a href="/">&larr; ahmed19944.github.io</a>
+  </footer>
+
+</main>
+</body>
+</html>

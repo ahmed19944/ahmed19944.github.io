@@ -1,0 +1,7 @@
+# app-ads.txt - Spot the Difference (com.std.spotthedifference)
+#
+# Publisher ID pending. See Docs/Publishing.md step 5.5 in the spot-the-difference
+# repo: AdMob -> Privacy & messaging -> app-ads.txt shows the exact line to publish.
+# Paste the real pub- ID below, uncomment it, and redeploy (npm run deploy).
+#
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
