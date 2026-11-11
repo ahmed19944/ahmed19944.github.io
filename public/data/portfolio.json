@@ -161,6 +161,83 @@
       ]
     },
     {
+      "id": 8,
+      "title": "The Last Wish",
+      "description": "The Last Wish is a relaxing spot-the-difference game on Steam, built in Godot and set across 17 urban fantasy scenes with 85 differences to discover. Players explore at their own pace with synchronized zoom and pan, a magnifier, and optional hints, with no timer. I led development from gameplay and content tools through Steam integration and release marketing, using AI to assist with programming, debugging, artwork, music, and promotional production while directing and reviewing the work.",
+      "keyFeatures": [
+        "17 urban fantasy scenes and 85 differences, with no timer",
+        "Synchronized split-view zoom and pan, plus a shader-based magnifier",
+        "Optional hints, automatic progress saving, and freely accessible levels",
+        "100 Steam achievements",
+        "Scene-specific music, animated find feedback, and storybook page transitions"
+      ],
+      "contributions": [
+        {
+          "title": "Gameplay Architecture & Interaction",
+          "description": "Designed and implemented the Godot/GDScript gameplay systems: resource-based level and difference data, hit detection, synchronized camera controls, hints, progression, and persistent saves. Refined click-versus-drag handling and camera bounds to keep inspecting artwork responsive and predictable."
+        },
+        {
+          "title": "Content Pipeline & Editor Tools",
+          "description": "Built a Theme Builder plugin that validates paired artwork, imports JSON difference definitions and numbered music tracks, and generates level resources and achievement catalogs. Created a visual Difference Editor for positioning hit regions and editing achievement text, with resolution-independent coordinates and focused JSON saves."
+        },
+        {
+          "title": "Shaders, UI & Game Feel",
+          "description": "Developed a screen-space magnifier that samples the correct comparison pane and crosses the divider seamlessly. Implemented themed UI, found markers and effects, adaptive hints, iris wipes, page-turn transitions, audio fades, and animated main-menu atmosphere."
+        },
+        {
+          "title": "Steam Integration & Release Preparation",
+          "description": "Integrated GodotSteam achievements with stable difference IDs and generated catalogs. Resolved achievement submission and overlay-renderer issues, and configured application branding, Windows exports, and Steam release assets."
+        },
+        {
+          "title": "Shared Desktop & Mobile Foundation",
+          "description": "Extended the shared codebase with centralized platform detection, touch pan and pinch zoom, a long-press magnifier, orientation-aware comparison layouts, UI scaling, and safe-area handling. Implemented Android advertising and billing integrations, including rewarded hints and Remove Ads, while excluding mobile dependencies from Steam builds."
+        },
+        {
+          "title": "AI-Assisted Engineering",
+          "description": "Used AI to assist with coding, debugging, editor tooling, and iteration. Directed the work through feature specifications and concrete tasks, reviewed the generated implementations, and refined behavior and integration in Godot. Retained responsibility for technical decisions and the final player experience."
+        },
+        {
+          "title": "AI Artwork & Music Production",
+          "description": "Used generative AI to produce artwork and music, then selected and integrated the assets into the game's theme pipeline. Authored and refined difference positions and hit regions, paired scenes with music, and tuned presentation so the generated content worked as playable puzzles."
+        },
+        {
+          "title": "Marketing & Media Automation",
+          "description": "Used AI assistance to develop promotional copy and media-production tools. Built repeatable Python/FFmpeg workflows for genuine gameplay captures, Steam capsules and screenshots, trailers, and portrait social videos, with explicit AI disclosures for generated artwork and music."
+        }
+      ],
+      "tags": [
+        "Godot",
+        "GDScript",
+        "AI-Assisted Development",
+        "Steam",
+        "Editor Tools"
+      ],
+      "platform": [
+        "PC",
+        "Godot"
+      ],
+      "image": "./img/TheLastWish-cover.png",
+      "videos": [
+        "./videos/TheLastWish-trailer.mp4"
+      ],
+      "images": [
+        "./img/TheLastWish-screenshot1.png",
+        "./img/TheLastWish-screenshot2.png",
+        "./img/TheLastWish-screenshot3.png",
+        "./img/TheLastWish-screenshot4.png"
+      ],
+      "links": {
+        "download": "https://store.steampowered.com/app/5398810/"
+      },
+      "actions": [
+        {
+          "label": "View on Steam",
+          "url": "https://store.steampowered.com/app/5398810/",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
       "id": 1,
       "title": "Sky Striders",
       "description": "Sky Striders is a competitive multiplayer action game built around the thrill of movement mastery, focusing on fluid base movement and grappling hook mechanics in fast-paced online matches. Players chain together grounded momentum, aerial mobility, and precise hook usage to traverse dynamic arenas with speed and control.Set in a stylized combat space where positioning and mobility define success, the experience challenges players to outmaneuver opponents, master traversal routes, and leverage verticality to gain the upper hand. At its core, the gameplay loop rewards skillful movement, quick decision-making, and mechanical precision, supported by responsive controls and a networked multiplayer system that delivers smooth, high-speed encounters and a strong sense of freedom.",
@@ -472,5 +549,5 @@
       "description": "Participated in and won a Virtual Reality Hackathon"
     }
   ],
-  "filterCategories": ["All", "PC", "Mobile", "VR", "Unity", "Unreal"]
+  "filterCategories": ["All", "PC", "Mobile", "VR", "Unity", "Unreal", "Godot"]
 }

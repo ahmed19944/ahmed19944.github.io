@@ -289,6 +289,17 @@ export function Projects({ projects, categories }: ProjectsProps) {
                           <div className="grid gap-6 lg:grid-cols-2">
                             {selectedProject.videos.map((video, index) => (
                               <div key={index} className="rounded-3xl overflow-hidden bg-muted shadow-lg aspect-video">
+                                {/\.mp4(?:[?#]|$)/i.test(video) ? (
+                                <video
+                                  src={video}
+                                  controls
+                                  preload="none"
+                                  playsInline
+                                  poster={selectedProject.image}
+                                  aria-label={`${selectedProject.title} - Video ${index + 1}`}
+                                  className="w-full h-full object-contain"
+                                />
+                                ) : (
                                 <iframe
                                   src={video}
                                   title={`${selectedProject.title} - Video ${index + 1}`}
@@ -296,6 +307,7 @@ export function Projects({ projects, categories }: ProjectsProps) {
                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                   allowFullScreen
                                 />
+                                )}
                               </div>
                             ))}
 
