@@ -163,7 +163,7 @@
     {
       "id": 8,
       "title": "The Last Wish",
-      "description": "The Last Wish is a relaxing spot-the-difference game on Steam, built in Godot and set across 17 urban fantasy scenes with 85 differences to discover. Players explore at their own pace with synchronized zoom and pan, a magnifier, and optional hints, with no timer. I led development from gameplay and content tools through Steam integration and release marketing, using AI to assist with programming, debugging, artwork, music, and promotional production while directing and reviewing the work.",
+      "description": "The Last Wish is a relaxing spot-the-difference game on Steam, built in Godot and set across 17 urban fantasy scenes with 85 differences to discover. Players explore at their own pace with synchronized zoom and pan, a magnifier, and optional hints, with no timer.",
       "keyFeatures": [
         "17 urban fantasy scenes and 85 differences, with no timer",
         "Synchronized split-view zoom and pan, plus a shader-based magnifier",
@@ -233,56 +233,6 @@
         {
           "label": "View on Steam",
           "url": "https://store.steampowered.com/app/5398810/",
-          "variant": "primary"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Autoliv Explore 3D",
-      "description": "Autoliv Explore 3D is an iOS augmented reality and interactive 3D application for presenting automotive safety products, including airbags and seatbelts. Built with Unity and Vuforia, it helps sales teams demonstrate products and their placement within a vehicle. My contribution focused on developing the user interface through many iterations before handing the work over to the next developer to continue.",
-      "keyFeatures": [
-        "Augmented reality visualization of automotive safety products",
-        "Interactive 3D product exploration and inspection",
-        "Vehicle-context demonstrations for sales presentations",
-        "Mobile presentation experience for iOS and iPad"
-      ],
-      "contributions": [
-        {
-          "title": "UI Development & Iteration",
-          "description": "Developed the application UI in Unity, working through many iterations to refine its presentation and interactions."
-        },
-        {
-          "title": "Developer Handover",
-          "description": "Handed over the UI work to the next developer so they could continue its development and further iteration."
-        }
-      ],
-      "tags": [
-        "Unity",
-        "UI Development",
-        "AR",
-        "iOS"
-      ],
-      "platform": [
-        "Mobile",
-        "Unity"
-      ],
-      "image": "./img/Autoliv-cover.png",
-      "videos": [
-        "https://www.youtube.com/embed/OtewjIJFGIU"
-      ],
-      "images": [
-        "./img/Autoliv-Explore-3D/1.png",
-        "./img/Autoliv-Explore-3D/2.png",
-        "./img/Autoliv-Explore-3D/3.png",
-        "./img/Autoliv-Explore-3D/4.png",
-        "./img/Autoliv-Explore-3D/5.png"
-      ],
-      "links": {},
-      "actions": [
-        {
-          "label": "Case Study",
-          "url": "https://unity.com/case-study/autoliv",
           "variant": "primary"
         }
       ]
@@ -432,6 +382,148 @@
       "links": {}
     },
     {
+      "id": 10,
+      "title": "Skull Switch",
+      "description": "Skull Switch is a Unity mobile game built around quick reactions and lane switching to protect skulls from incoming threats. Simple controls and increasingly demanding obstacle patterns create a fast-paced reflex challenge.",
+      "keyFeatures": [
+        "Reflex-based lane switching",
+        "Increasingly challenging obstacle patterns",
+        "Simple controls for quick mobile play"
+      ],
+      "contributions": [
+        {
+          "title": "Trailer Script & Character Dialogue",
+          "description": "Wrote the dialogue between the two skulls for the trailer's opening and closing conversations, framing the gameplay section."
+        },
+        {
+          "title": "Trailer Interactions in Unity",
+          "description": "Implemented some of the trailer interactions in Unity."
+        }
+      ],
+      "tags": [
+        "Unity",
+        "Mobile",
+        "Trailer Writing"
+      ],
+      "platform": [
+        "Mobile",
+        "Unity"
+      ],
+      "image": "./img/SkullSwitch-cover.png",
+      "videos": [
+        "https://www.youtube.com/embed/9B_GFFyyyNY"
+      ],
+      "images": [
+        "./img/SkullSwitch/0.png",
+        "./img/SkullSwitch/1.png",
+        "./img/SkullSwitch/2.png",
+        "./img/SkullSwitch/3.png",
+        "./img/SkullSwitch/4.png",
+        "./img/SkullSwitch/5.png"
+      ],
+      "links": {}
+    },
+    {
+      "id": 9,
+      "title": "Autoliv Explore 3D",
+      "description": "Autoliv Explore 3D is an iOS augmented reality and interactive 3D application for presenting automotive safety products, including airbags and seatbelts. Built with Unity and Vuforia, it helps sales teams demonstrate products and their placement within a vehicle.",
+      "keyFeatures": [
+        "Augmented reality visualization of automotive safety products",
+        "Interactive 3D product exploration and inspection",
+        "Vehicle-context demonstrations for sales presentations",
+        "Mobile presentation experience for iOS and iPad"
+      ],
+      "contributions": [
+        {
+          "title": "UI Development & Iteration",
+          "description": "Developed the application UI in Unity, working through many iterations to refine its presentation and interactions."
+        },
+        {
+          "title": "Developer Handover",
+          "description": "Handed over the UI work to the next developer so they could continue its development and further iteration."
+        }
+      ],
+      "tags": [
+        "Unity",
+        "UI Development",
+        "AR",
+        "iOS"
+      ],
+      "platform": [
+        "Mobile",
+        "Unity"
+      ],
+      "image": "./img/Autoliv-cover.png",
+      "videos": [
+        "https://www.youtube.com/embed/OtewjIJFGIU"
+      ],
+      "images": [
+        "./img/Autoliv-Explore-3D/1.png",
+        "./img/Autoliv-Explore-3D/2.png",
+        "./img/Autoliv-Explore-3D/3.png",
+        "./img/Autoliv-Explore-3D/4.png",
+        "./img/Autoliv-Explore-3D/5.png"
+      ],
+      "links": {},
+      "actions": [
+        {
+          "label": "Case Study",
+          "url": "https://unity.com/case-study/autoliv",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Killing Beat",
+      "description": "A rhythm game where the player tries to avoid incoming obstacles while vibing to sick beats.",
+      "keyFeatures": [
+        "Rhythm-synced gameplay featuring obstacles and environmental shifts that move to the beat.",
+        "Dynamic obstacle patterns that evolve and change throughout the levels.",
+        "Unlockable character skins and visual customization via an in-game currency system.",
+        "Multiple movement styles and control schemes optimized for varied playstyles.",
+        "Progressive difficulty tiers ranging from Normal to Nightmare modes."
+      ],
+      "contributions": [
+        {
+          "title": "Core Gameplay Systems",
+          "description": "Reimagined and implemented flexible player movement mechanics, including specialized controls for mobile."
+        },
+        {
+          "title": "Technical Integration & Level Design",
+          "description": "Hand crafted levels with unique obstacle patterns and integrated them with the music's rhythm, ensuring a cohesive and engaging player experience."
+        },
+        {
+          "title": "Obstacle & Object Pooling",
+          "description": "Engineered a robust obstacle pooling system to optimize performance and handled the implementation of complex obstacle behaviors."
+        },
+        {
+          "title": "UI/UX Development",
+          "description": "Designed and integrated the game's UI, including main menus, pause menus, and dynamic in-game indicators for damage, jump cooldowns, and incoming obstacle directions."
+        },
+        {
+          "title": "Visual Effects & Polish",
+          "description": "Developed a suite of visual components such as custom color lerping, particle systems for player feedback, and various screen fade effects (circle, flicker, etc.) to enhance game feel."
+        },
+        {
+          "title": "Systems Architecture",
+          "description": "Implemented a shop system, player settings persistence (sensitivity/dead zones), and level progression logic, including checkpoints and transitions."
+        },
+        {
+          "title": "Optimization & Quality of Life",
+          "description": "Performed extensive project clean-ups and refactored components to be more modular and independent, significantly improving code maintainability."
+        }
+      ],
+      "tags": ["Mobile", "Unity"],
+      "platform": ["Mobile", "Unity"],
+      "image": "./img/KillingBeat-cover.png",
+      "videos": [
+        "https://www.youtube.com/embed/IrbEw_K3Jy0"
+      ],
+      "images": [],
+      "links": {}
+    },
+    {
       "id": 3,
       "title": "Ice Rush",
       "description": "Multiplayer VR Racing Game developed during ITI diploma program.",
@@ -508,56 +600,6 @@
       "image": "./img/SuperFoodWars-cover.png",
       "videos": [
         "https://www.youtube.com/embed/cre8c3hFW80"
-      ],
-      "images": [],
-      "links": {}
-    },
-    {
-      "id": 5,
-      "title": "Killing Beat",
-      "description": "A rhythm game where the player tries to avoid incoming obstacles while vibing to sick beats.",
-      "keyFeatures": [
-        "Rhythm-synced gameplay featuring obstacles and environmental shifts that move to the beat.",
-        "Dynamic obstacle patterns that evolve and change throughout the levels.",
-        "Unlockable character skins and visual customization via an in-game currency system.",
-        "Multiple movement styles and control schemes optimized for varied playstyles.",
-        "Progressive difficulty tiers ranging from Normal to Nightmare modes."
-      ],
-      "contributions": [
-        {
-          "title": "Core Gameplay Systems",
-          "description": "Reimagined and implemented flexible player movement mechanics, including specialized controls for mobile."
-        },
-        {
-          "title": "Technical Integration & Level Design",
-          "description": "Hand crafted levels with unique obstacle patterns and integrated them with the music's rhythm, ensuring a cohesive and engaging player experience."
-        },
-        {
-          "title": "Obstacle & Object Pooling",
-          "description": "Engineered a robust obstacle pooling system to optimize performance and handled the implementation of complex obstacle behaviors."
-        },
-        {
-          "title": "UI/UX Development",
-          "description": "Designed and integrated the game's UI, including main menus, pause menus, and dynamic in-game indicators for damage, jump cooldowns, and incoming obstacle directions."
-        },
-        {
-          "title": "Visual Effects & Polish",
-          "description": "Developed a suite of visual components such as custom color lerping, particle systems for player feedback, and various screen fade effects (circle, flicker, etc.) to enhance game feel."
-        },
-        {
-          "title": "Systems Architecture",
-          "description": "Implemented a shop system, player settings persistence (sensitivity/dead zones), and level progression logic, including checkpoints and transitions."
-        },
-        {
-          "title": "Optimization & Quality of Life",
-          "description": "Performed extensive project clean-ups and refactored components to be more modular and independent, significantly improving code maintainability."
-        }
-      ],
-      "tags": ["Mobile", "Unity"],
-      "platform": ["Mobile", "Unity"],
-      "image": "./img/KillingBeat-cover.png",
-      "videos": [
-        "https://www.youtube.com/embed/IrbEw_K3Jy0"
       ],
       "images": [],
       "links": {}
