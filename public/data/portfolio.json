@@ -238,6 +238,56 @@
       ]
     },
     {
+      "id": 9,
+      "title": "Autoliv Explore 3D",
+      "description": "Autoliv Explore 3D is an iOS augmented reality and interactive 3D application for presenting automotive safety products, including airbags and seatbelts. Built with Unity and Vuforia, it helps sales teams demonstrate products and their placement within a vehicle. My contribution focused on developing the user interface through many iterations before handing the work over to the next developer to continue.",
+      "keyFeatures": [
+        "Augmented reality visualization of automotive safety products",
+        "Interactive 3D product exploration and inspection",
+        "Vehicle-context demonstrations for sales presentations",
+        "Mobile presentation experience for iOS and iPad"
+      ],
+      "contributions": [
+        {
+          "title": "UI Development & Iteration",
+          "description": "Developed the application UI in Unity, working through many iterations to refine its presentation and interactions."
+        },
+        {
+          "title": "Developer Handover",
+          "description": "Handed over the UI work to the next developer so they could continue its development and further iteration."
+        }
+      ],
+      "tags": [
+        "Unity",
+        "UI Development",
+        "AR",
+        "iOS"
+      ],
+      "platform": [
+        "Mobile",
+        "Unity"
+      ],
+      "image": "./img/Autoliv-cover.png",
+      "videos": [
+        "https://www.youtube.com/embed/OtewjIJFGIU"
+      ],
+      "images": [
+        "./img/Autoliv-Explore-3D/1.png",
+        "./img/Autoliv-Explore-3D/2.png",
+        "./img/Autoliv-Explore-3D/3.png",
+        "./img/Autoliv-Explore-3D/4.png",
+        "./img/Autoliv-Explore-3D/5.png"
+      ],
+      "links": {},
+      "actions": [
+        {
+          "label": "Case Study",
+          "url": "https://unity.com/case-study/autoliv",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
       "id": 1,
       "title": "Sky Striders",
       "description": "Sky Striders is a competitive multiplayer action game built around the thrill of movement mastery, focusing on fluid base movement and grappling hook mechanics in fast-paced online matches. Players chain together grounded momentum, aerial mobility, and precise hook usage to traverse dynamic arenas with speed and control.Set in a stylized combat space where positioning and mobility define success, the experience challenges players to outmaneuver opponents, master traversal routes, and leverage verticality to gain the upper hand. At its core, the gameplay loop rewards skillful movement, quick decision-making, and mechanical precision, supported by responsive controls and a networked multiplayer system that delivers smooth, high-speed encounters and a strong sense of freedom.",
